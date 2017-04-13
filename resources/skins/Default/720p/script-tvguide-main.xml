@@ -389,7 +389,7 @@
                     <align>center</align>
                     <aligny>center</aligny>
                     <textcolor>white</textcolor>
-                    <shadowcolor>black</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <label>$INFO[System.Time]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">conditional</animation>
                 </control>
@@ -661,9 +661,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4110),)</visible>
                 </control>
@@ -674,9 +674,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4111),)</visible>
                 </control>
@@ -687,9 +687,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4112),)</visible>
                 </control>
@@ -700,9 +700,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4113),)</visible>
                 </control>
@@ -713,9 +713,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4114),)</visible>
                 </control>
@@ -726,9 +726,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4115),)</visible>
                 </control>
@@ -739,9 +739,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4116),)</visible>
                 </control>
@@ -752,9 +752,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4117),)</visible>
                 </control>
@@ -765,9 +765,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4118),)</visible>
                 </control>
@@ -778,9 +778,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4119),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -792,9 +792,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4120),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -806,9 +806,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4121),)</visible>
                 </control>
@@ -819,9 +819,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4122),)</visible>
                 </control>
@@ -832,9 +832,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4123),)</visible>
                 </control>
@@ -845,9 +845,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4124),)</visible>
                 </control>
@@ -858,9 +858,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4125), )</visible>
                 </control>

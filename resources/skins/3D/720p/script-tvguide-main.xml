@@ -143,7 +143,7 @@
             <posy>0</posy>
             <width>1280</width>
             <height>720</height>
-            <colordiffuse>black</colordiffuse>
+            <colordiffuse>white</colordiffuse>
             <texture>black.png</texture>
             <visible>true</visible>
             <aspectratio>scale</aspectratio>
@@ -273,7 +273,7 @@
                 <height>446</height>
                 <visible>Control.IsVisible(4200)</visible>
                 <colordiffuse>blue</colordiffuse>
-                <texture>black.png</texture>
+                <texture>white.png</texture>
             </control>
 
             <control type="image">
@@ -343,7 +343,7 @@
                     <posy>0</posy>
                     <width>180</width>
                     <height>50</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font13</font>
                     <align>center</align>
@@ -357,7 +357,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <font>font10</font>
                     <align>right</align>
                     <aligny>center</aligny>
@@ -370,7 +370,7 @@
                     <posy>0</posy>
                     <width>280</width>
                     <height>20</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10</font>
                     <align>right</align>
@@ -388,8 +388,8 @@
                     <font>font13_title</font>
                     <align>center</align>
                     <aligny>center</aligny>
-                    <textcolor>black</textcolor>
-                    <shadowcolor>black</shadowcolor>
+                    <textcolor>white</textcolor>
+                    <shadowcolor></shadowcolor>
                     <label>$INFO[System.Time]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">conditional</animation>
                 </control>
@@ -415,7 +415,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -425,7 +425,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -435,7 +435,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -445,7 +445,7 @@
                     <posy>0</posy>
                     <width>270</width>
                     <height>30</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <font>font12</font>
                     <aligny>center</aligny>
                 </control>
@@ -661,9 +661,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4110),)</visible>
                 </control>
@@ -674,9 +674,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4111),)</visible>
                 </control>
@@ -687,9 +687,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4112),)</visible>
                 </control>
@@ -700,9 +700,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4113),)</visible>
                 </control>
@@ -713,9 +713,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4114),)</visible>
                 </control>
@@ -726,9 +726,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4115),)</visible>
                 </control>
@@ -739,9 +739,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4116),)</visible>
                 </control>
@@ -752,9 +752,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4117),)</visible>
                 </control>
@@ -765,9 +765,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4118),)</visible>
                 </control>
@@ -778,9 +778,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4119),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -792,9 +792,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4120),)</visible>
                     <texturenofocus>tvguide-program-grey.png</texturenofocus>
@@ -806,9 +806,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4121),)</visible>
                 </control>
@@ -819,9 +819,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4122),)</visible>
                 </control>
@@ -832,9 +832,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4123),)</visible>
                 </control>
@@ -845,9 +845,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4124),)</visible>
                 </control>
@@ -858,9 +858,9 @@
                     <width>176</width>
                     <height>40</height>
                     <textcolor>ffffffff</textcolor>
-                    <shadowcolor>-</shadowcolor>
+                    <shadowcolor></shadowcolor>
                     <font>font13_title</font>
-                    <align>center</align>
+                    <align>left</align>
                     <aligny>center</aligny>
                     <visible>StringCompare(Control.GetLabel(4125), )</visible>
                 </control>
@@ -1048,7 +1048,7 @@
                     <posy>0</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1061,7 +1061,7 @@
                     <posy>40</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1074,7 +1074,7 @@
                     <posy>80</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1087,7 +1087,7 @@
                     <posy>120</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1100,7 +1100,7 @@
                     <posy>160</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1113,7 +1113,7 @@
                     <posy>200</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1126,7 +1126,7 @@
                     <posy>240</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1139,7 +1139,7 @@
                     <posy>280</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1152,7 +1152,7 @@
                     <posy>320</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1165,7 +1165,7 @@
                     <posy>360</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1179,7 +1179,7 @@
                     <posy>400</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1193,7 +1193,7 @@
                     <posy>440</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1206,7 +1206,7 @@
                     <posy>480</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1219,7 +1219,7 @@
                     <posy>520</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1232,7 +1232,7 @@
                     <posy>560</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1245,7 +1245,7 @@
                     <posy>600</posy>
                     <width>176</width>
                     <height>40</height>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <font>font10_title</font>
                     <align>left</align>
@@ -1286,7 +1286,7 @@
                 <posy>530</posy>
                 <width>845</width>
                 <height>30</height>
-                <textcolor>black</textcolor>
+                <textcolor>white</textcolor>
 
                 <font>font13</font>
                 <align>left</align>
@@ -1301,7 +1301,7 @@
                 <posy>500</posy>
                 <width>1090</width>
                 <height>40</height>
-                <textcolor>black</textcolor>
+                <textcolor>white</textcolor>
 
                 <font>font13</font>
                 <align>right</align>
@@ -1315,7 +1315,7 @@
                 <height>3</height>
                 <lefttexture />
                 <righttexture />
-                <texturebg  colordiffuse="black">tvg-button-nofocus.png</texturebg>
+                <texturebg  colordiffuse="white">tvg-button-nofocus.png</texturebg>
                 <midtexture colordiffuse="grey">tvg-button-focus.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(7026),0)</visible>
             </control>
@@ -1325,7 +1325,7 @@
                 <posy>560</posy>
                 <width>845</width>
                 <height>140</height>
-                <textcolor>black</textcolor>
+                <textcolor>white</textcolor>
                 <font>font13</font>
                 <align>left</align>
                 <wrapmultiline>true</wrapmultiline>
@@ -1417,7 +1417,7 @@
                     <height>2</height>
                     <texturebg />
                     <lefttexture />
-                    <midtexture>tvguide-black-progress.png</midtexture>
+                    <midtexture>tvguide-white-progress.png</midtexture>
                     <righttexture />
                 </control>
                 <control type="label" id="4202">
@@ -1440,7 +1440,7 @@
                     <font>font13</font>
                     <aligny>center</aligny>
                     <align>center</align>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <focusedcolor>black</focusedcolor>
                     <texturefocus>tvg-button-focus.png</texturefocus>
                     <texturenofocus>tvg-button-nofocus.png</texturenofocus>
@@ -2129,7 +2129,7 @@
                 <width>160</width>
                 <height>40</height>
                 <aspectratio>keep</aspectratio>
-                <colordiffuse>black</colordiffuse>
+                <colordiffuse>white</colordiffuse>
             </control>
             <control type="progress" id="6011">
                 <posx>0</posx>
@@ -2138,7 +2138,7 @@
                 <height>5</height>
                 <lefttexture />
                 <righttexture />
-                <texturebg  colordiffuse="black">black.png</texturebg>
+                <texturebg  colordiffuse="white">black.png</texturebg>
                 <midtexture colordiffuse="grey">grey.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(6011),0)</visible>
             </control>
@@ -2243,7 +2243,7 @@
                     <align>right</align>
                     <aligny>center</aligny>
                     <font>font28_title</font>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <label>$INFO[System.Time]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">conditional</animation>
@@ -2404,7 +2404,7 @@
                 <width>160</width>
                 <height>40</height>
                 <aspectratio>keep</aspectratio>
-                <colordiffuse>black</colordiffuse>
+                <colordiffuse>white</colordiffuse>
             </control>
 
             <control type="progress" id="8011">
@@ -2414,7 +2414,7 @@
                 <height>5</height>
                 <lefttexture />
                 <righttexture />
-                <texturebg  colordiffuse="black">black.png</texturebg>
+                <texturebg  colordiffuse="white">black.png</texturebg>
                 <midtexture colordiffuse="grey">grey.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(8011),0)</visible>
             </control>
@@ -2530,7 +2530,7 @@
                     <align>right</align>
                     <aligny>center</aligny>
                     <font>font28_title</font>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <label>$INFO[System.Time]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">conditional</animation>
@@ -2603,7 +2603,7 @@
                 <height>5</height>
                 <lefttexture />
                 <righttexture />
-                <texturebg  colordiffuse="black">black.png</texturebg>
+                <texturebg  colordiffuse="white">black.png</texturebg>
                 <midtexture colordiffuse="grey">grey.png</midtexture>
                 <visible>IntegerGreaterThan(Control.GetLabel(9011),0)</visible>
             </control>
@@ -2615,7 +2615,7 @@
                 <width>160</width>
                 <height>40</height>
                 <aspectratio>keep</aspectratio>
-                <colordiffuse>black</colordiffuse>>
+                <colordiffuse>white</colordiffuse>>
             </control>
 
 
@@ -2752,7 +2752,7 @@
                     <align>right</align>
                     <aligny>center</aligny>
                     <font>font28_title</font>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <label>$INFO[System.Time]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">conditional</animation>
@@ -2799,7 +2799,7 @@
                 <posy>-2</posy>
                 <width>1280</width>
                 <height>126</height>
-                <texture colordiffuse="FF00BFFF">black50.png</texture>
+                <texture colordiffuse="FF00BFFF">white50.png</texture>
                 <visible>!Control.IsVisible(10000)</visible>
             </control>
 
@@ -2823,7 +2823,7 @@
                 <posy>-60</posy>
                 <width>1280</width>
                 <height>58</height>
-                <texture colordiffuse="FF00BFFF">black50.png</texture>
+                <texture colordiffuse="FF00BFFF">white50.png</texture>
                 <visible>!Control.IsVisible(10000)</visible>
             </control>
             <control type="image" id="14602">
@@ -2983,7 +2983,7 @@
                 <posy>0</posy>
                 <width>-2</width>
                 <height>116</height>
-                <texture>black.png</texture>
+                <texture>white.png</texture>
             </control>
 
             <control type="image">
@@ -3085,7 +3085,7 @@
                     <align>right</align>
                     <aligny>center</aligny>
                     <font>font28_title</font>
-                    <textcolor>black</textcolor>
+                    <textcolor>white</textcolor>
                     <shadowcolor>black</shadowcolor>
                     <label>$INFO[System.Time(hh:mm)]</label>
                     <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Window.IsVisible(Mutebug)">
