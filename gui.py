@@ -3327,6 +3327,7 @@ class TVGuide(xbmcgui.WindowXML):
                     title,
                     focusedColor=focusColor,
                     textColor=noFocusColor,
+                    shadowColor = "0xffa9a9a9",
                     noFocusTexture=noFocusTexture,
                     focusTexture=focusTexture,
                     font=font
